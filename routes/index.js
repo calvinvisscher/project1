@@ -5,7 +5,7 @@ const router = Router();
 
 router.get("/", async (req, res) => {
   try {
-    const data = await readFile("../public/index.html", "utf8");
+    const data = await readFile("./public/html/index.html", "utf8");
     res.send(data);
   } catch {
     res.status(500).send("sorry, out of order");
