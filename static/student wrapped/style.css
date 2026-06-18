@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #1F2041;
+    min-height: 100vh;
+    color: #FFFFFF;
+}
+
+header {
+    background-color: #FFBF00;
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+
+footer {
+    background-color: #E0E0E0;
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    padding-top: 5em;
+}
+
+a:hover {
+    opacity: 0.3;
+}
+
+.link-visible {
+    color: inherit;
+}
+
+.link-invisible {
+    text-decoration: none;
+    color: inherit;
+}
+
+.link-invisible:hover {
+    text-decoration: underline;
+}
