@@ -2,7 +2,10 @@
 main {
     opacity: 0;
     animation: fadeIn 1s ease-in-out forwards;
+}
 
+body {
+    overflow: auto;
 }
 
 @keyframes fadeIn {
@@ -62,14 +65,22 @@ nav img:hover {
 
 /* Box Class's */
 .box-blue {
-    background: linear-gradient(90deg, rgba(50, 100, 150, 0.75) 25%, rgba(8, 74, 100, 0.37)100%);
+    background: linear-gradient(
+        90deg,
+        rgba(50, 100, 150, 0.75) 25%,
+        rgba(8, 74, 100, 0.37) 100%
+    );
     padding: 2em;
     border-radius: 2em;
     text-align: center;
 }
 
 .box-green {
-    background: linear-gradient(90deg, rgb(100, 150, 25, 0.75) 25%, rgba(42, 199, 3, 0.616)100%);
+    background: linear-gradient(
+        90deg,
+        rgb(100, 150, 25, 0.75) 25%,
+        rgba(42, 199, 3, 0.616) 100%
+    );
     padding: 1.5em;
     border-radius: 4em;
     text-align: center;
@@ -83,7 +94,11 @@ nav img:hover {
 }
 
 .box-red {
-    background: linear-gradient(0deg, rgba(255, 191, 0, 0.46) 19%, rgba(253, 45, 45, 0.66) 86%);
+    background: linear-gradient(
+        0deg,
+        rgba(255, 191, 0, 0.46) 19%,
+        rgba(253, 45, 45, 0.66) 86%
+    );
     padding: 5em;
     padding-bottom: 3em;
     padding-top: 3em;
@@ -125,7 +140,7 @@ nav img:hover {
     transform: translateX(-70%);
     padding: 1em;
     border-radius: 2.5em;
-    border: 0.1em solid #FFFFFF;
+    border: 0.1em solid #ffffff;
 }
 
 /* Text Class's */
@@ -161,7 +176,7 @@ h1 {
 }
 
 main h1 {
-    color: #FFBF00;
+    color: #ffbf00;
 }
 
 h2 {
