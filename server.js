@@ -8,12 +8,12 @@ const app = express();
 app.use(express.static("static"));
 
 app.get("/", async (req, res) => {
-    const data = await readFile("./static/html/index.html", "utf8");
+    const data = await readFile("./static/webserver/index.html", "utf8");
     res.send(data);
 });
 
-app.get("/student-wrapped", async (req, res) => {
-    const data = await readFile("./static/html/student-wrapped.html", "utf8");
+app.get("/casino-crawler", async (req, res) => {
+    const data = await readFile("./static/casino-crawler/casino-crawler.html", "utf8");
     res.send(data);
 });
 
